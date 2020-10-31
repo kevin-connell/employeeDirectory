@@ -1,0 +1,12 @@
+.bigImage {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.tableScroll {
+    max-height: 350px;
+    overflow: scroll;
+}
