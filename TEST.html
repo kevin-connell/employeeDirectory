@@ -13,151 +13,32 @@
 
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">Employee Directory</a>
+    <!-- Nav -->
+    <div class="container">
+        <div class="row">
+            <div class="col s1">
+                <p>Search:</p>
             </div>
-        </nav>
+            <div class="col s11">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="material-icons"></i></label>
+                        <i class="material-icons">X</i>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="collection col s12 m6">
+                <!-- Sort -->
+                <ul class="tableScroll collection">
+                <!-- list of contacts -->
+                </ul>
+            </div>
+            <!-- BigContact -->
+        </div>
     </div>
 </body>
-<div class="container">
-    <div class="row">
-        <div class="col s1">
-            <p>Search:</p>
-        </div>
-        <div class="col s11">
-            <form>
-                <div class="input-field">
-                    <input id="search" type="search" required>
-                    <label class="label-icon" for="search"><i class="material-icons"></i></label>
-                    <i class="material-icons">X</i>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="row">
-        <div class="collection col s12 m6">
-            <div class="row">
-                <p class="center-align col offset-s3 s3">Name ▽</p>
-                <p class="center-align col s3">Number ▽</p>
-                <p class="center-align col s3">Email ▽</p>
-            </div>
-            <ul class="tableScroll collection">
-                <li class="active collection-item avatar">
-                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="" class="circle">
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle">folder</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <img src="images/yuna.jpg" alt="" class="circle">
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle">folder</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <img src="images/yuna.jpg" alt="" class="circle">
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle">folder</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">insert_chart</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">play_arrow</i>
-                    <span class="title">Tonya Burns</span>
-                    <p>(746)-523-9503 <br>
-                        tonya.burns@example.com
-                    </p>
-                    <a href="#!" class="secondary-content">+</a>
-                </li>
-            </ul>
-        </div>
-        <div class="mainCard collection col s12 m6">
-            <img src="https://randomuser.me/api/portraits/women/68.jpg"
-                alt="" class="circle center-align bigImage">
-    
-            <h3 class="center-align">Kevin Connell</h3>
-            <div class="row center-align">
-                <h6>Phone: 267-370-4348</h6>
-                <button onclick="location.href='tel:267-370-4348'" class="button">Call</button>
-            </div>
-            <div class="row center-align">
-                <h6>Email: kevin@email.com</h6>
-                <button onclick="location.href='mailto:kevin@email.com'" class="button">Email</button>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 </html>

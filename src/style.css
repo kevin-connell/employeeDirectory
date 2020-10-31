@@ -10,3 +10,9 @@
     max-height: 350px;
     overflow: scroll;
 }
+
+.sortThis {
+    background-color: #e57373;
+    color: white;
+    border-radius: 8px;
+}
