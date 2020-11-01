@@ -7,7 +7,7 @@
 }
 
 .tableScroll {
-    max-height: 350px;
+    max-height: 378px;
     overflow: scroll;
 }
 
@@ -15,4 +15,8 @@
     background-color: #e57373;
     color: white;
     border-radius: 8px;
+}
+
+.clickMe {
+    cursor: pointer;
 }
